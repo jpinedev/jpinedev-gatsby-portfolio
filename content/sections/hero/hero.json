@@ -8,15 +8,15 @@
     "src": "../../images/waving-hand.png",
     "alt": "Waving Hand Emoji"
   },
-  "title": "I'm a Gatsby Starter",
-  "subtitle": {
-    "prefix": "I do all the setup ",
-    "highlight": "for you",
-    "suffix": "."
+  "title": {
+    "prefix": "I'm ",
+    "highlight": "Jacob Pine",
+    "suffix": " (JPineDev)"
   },
-  "description": "A Gatsby Starter Project to easily get started with Portfolio Minimal theme.",
+  "subtitle": "Fourth-year at Northeastern University studying Computer Science and Game Development.",
+  "description": "As a game programmer, I love to create and aid others to more easily achieve their creative vision. I would most like to gain experience developing multiplayer games and tools to assist with game creation.",
   "socialProfiles": {
-    "from": ["LinkedIn", "Medium", "Github", "Mail"],
-    "showIcons": false
+    "from": ["LinkedIn", "Github", "Twitter", "Mail"],
+    "showIcons": true
   }
 }

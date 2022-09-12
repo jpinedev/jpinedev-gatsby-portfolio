@@ -1,13 +1,13 @@
 {
-  "name": "Gatsby Starter For Portfolio Minimal",
-  "email": "example@mail.com",
-  "description": "If you have any problems with this theme, create an issue in the GitHub repository.",
+  "name": "Jacob Pine",
+  "email": "pine.j@northeastern.edu",
+  "description": "I am a fourth-year student at Northeastern University studying Computer Science and Game Development. As a game programmer, I love to create and aid others to more easily achieve their creative vision. I would most like to gain experience developing multiplayer games and tools to assist with game creation.",
   "image": {
-    "src": "../../images/favicon.png",
-    "alt": "Gatsby Logo"
+    "src": "../../images/HeadshotZoomed.jpg",
+    "alt": "My headshot"
   },
   "socialProfiles": {
-    "from": ["LinkedIn", "Medium", "Github", "Mail"],
+    "from": ["LinkedIn", "Github", "Twitter", "Mail"],
     "showIcons": true
   }
 }

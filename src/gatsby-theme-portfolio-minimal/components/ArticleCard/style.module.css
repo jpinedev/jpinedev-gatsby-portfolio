@@ -1,0 +1,100 @@
+.CardLink {
+    width: 100%;
+}
+
+.Card {
+    width: auto;
+    height: auto;
+    min-height: 24rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: .5rem 0 1.5rem 0;
+    box-shadow: 0 5px 15px var(--box-shadow-color);
+    border-radius: var(--border-radius);
+    background: var(--card-color);
+    white-space: normal;
+    transition: box-shadow 0.3s ease-out;
+}
+
+.Card:hover {
+    box-shadow: 0 5px 15px var(--box-shadow-hover-color);
+}
+
+.Card .Banner {
+    max-width: 60%;
+    border-top-left-radius: var(--border-radius);
+    border-bottom-left-radius: var(--border-radius);
+    background: var(--tertiary-color);
+}
+
+.Card .ImageWrapper {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+
+.Card .Image {
+    border-top-left-radius: var(--border-radius);
+    border-bottom-left-radius: var(--border-radius);
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+}
+
+.Card .DescriptionWrapper {
+    height: auto;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.Card .Categories {
+    color: var(--primary-color);
+    text-transform: uppercase;
+    letter-spacing: +1px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.Card .Category {
+    display: inline-block;
+}
+.Card .Category:not(:last-child) {
+    margin-right: 0.5rem;
+}
+
+.Card .Title {
+    margin: 0.25rem 0;
+    font-size: 1.75rem;
+    line-height: 2rem;
+    font-weight: 900;
+}
+
+.Card .Description {
+    margin: 0.25rem 0;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    max-width: 325px;
+}
+
+.Card .Details {
+    font-size: 0.75rem;
+    color: var(--subtext-color);
+    letter-spacing: +0.5px;
+}
+
+.Card .ReadingTime {
+    margin-left: 0.25rem;
+}
+
+.Card .ReadingTime::before {
+    content: '–';
+    margin-right: 0.25rem;
+}

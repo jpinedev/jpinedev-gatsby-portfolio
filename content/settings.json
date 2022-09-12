@@ -2,26 +2,25 @@
   "siteMetadata": {
     "language": "en",
     "siteUrl": "https://gatsby-starter-portfolio-minimal-theme.netlify.app/",
-    "title": "Gatsby Starter for Portfolio Minimal",
+    "title": "JPineDev Portfolio",
     "titleTemplate": "%s · Portfolio Minimal",
-    "description": "A Gatsby Starter Project to easily get started with Portfolio Minimal theme.",
-    "author": "Konstantin Münster",
-    "avatar": "../content/images/gatsby.png",
-    "bio": "This biography will be used in the footer area of an article and can contain some more details about the author.",
+    "description": "Jacob Pine's Game Development portfolio website built with GatsbyJS.",
+    "author": "Jacob Pine",
+    "avatar": "../content/images/HeadshotZoomed.jpg",
+    "bio": "I am a fourth-year student at Northeastern University studying Computer Science and Game Development. As a game programmer, I love to create and aid others to more easily achieve their creative vision. I would most like to gain experience developing multiplayer games and tools to assist with game creation.",
     "social": {
-      "behance": "https://behance.com",
-      "github": "https://github.com/konstantinmuenster",
-      "medium": "https://konstantinmuenster.medium.com",
-      "linkedin": "https://www.linkedin.com/in/konstantin-muenster/",
-      "mail": "mailto:mail@konstantin.digital"
+      "github": "https://github.com/jpinedev",
+      "linkedin": "https://www.linkedin.com/in/jacob-pine-4b7367157/",
+      "twitter": "https://twitter.com/JacobPineDev",
+      "mail": "mailto:pine.j@northeastern.edu"
     }
   },
   "siteConfiguration": {
-    "logo": { "text": "Portfolio" },
+    "logo": { "text": "JPineDev" },
     "navigation": {
       "header": [
         { "label": "About", "url": "/#about" },
-        { "label": "Blog", "url": "/blog" },
+        { "label": "Projects", "url": "/projects" },
         { "label": "Features", "url": "/#features" },
         { "label": "Github", "url": "/#github" }
       ],
@@ -36,7 +35,7 @@
       ]
     },
     "featureToggles": {
-      "useDarkModeAsDefault": false,
+      "useDarkModeAsDefault": true,
       "useDarkModeBasedOnUsersPreference": true,
       "useCookieBar": false
     }
