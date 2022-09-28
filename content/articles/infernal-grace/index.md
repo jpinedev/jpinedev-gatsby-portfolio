@@ -8,7 +8,6 @@ banner:
 categories:
   - "Unity"
   - "C#"
-  - "Git"
 keywords:
   - "Infernal Grace"
   - "Global Game Jam 2022"
@@ -26,7 +25,7 @@ keywords:
     font-weight: 200;
     color: var(--subtext-color);
   }
-  .airbridgeButton {
+  .button {
     border-radius: var(--border-radius);
     border: 0.125rem solid var(--primary-color);
     background: var(--background-color);
@@ -35,7 +34,7 @@ keywords:
     color: var(--primary-color);
     margin-bottom: .5rem;
   }
-  .airbridgeButton:hover {
+  .button:hover {
     background: var(--primary-color);
     color: var(--background-color);
   }
@@ -52,7 +51,7 @@ keywords:
 <ul style="font-size: 1.5rem; list-style: none">
   <li>
     <span class="detailsName">Platform:</span>
-    <span class="detailsInfo">iOS / Android</span>
+    <span class="detailsInfo">PC</span>
   </li>
   <li>
     <span class="detailsName">Engine:</span>
@@ -60,64 +59,52 @@ keywords:
   </li>
   <li>
     <span class="detailsName">Production Time:</span>
-    <span class="detailsInfo">11 weeks</span>
+    <span class="detailsInfo">48 hours</span>
   </li>
   <li>
     <span class="detailsName">Team Size:</span>
-    <span class="detailsInfo">8</span>
+    <span class="detailsInfo">7</span>
   </li>
   <li>
     <span class="detailsName">Role:</span>
-    <span class="detailsInfo">Lead Programmer</span>
+    <span class="detailsInfo">Programmer, Designer</span>
   </li>
 </ul>
 
 <div style="text-align: center">
   <h3 style="color: var(--code-block-fun)">
     Submitted to 2022 Global Game Jam Boston</h3>
-  <a href="https://globalgamejam.org/2022/games/infernal-grace-0" target="_blank" class="airbridgeButton">View Jam Submission</a>
+  <a href="https://globalgamejam.org/2022/games/infernal-grace-0" target="_blank" class="button">View Jam Submission</a>
 </div>
 
 ## Role & Responsibilities
-- Designed and implemented major game systems
-- Split up stories into small tasks to share amongst the programmers
-- Collaborated with Artists and Designers
-- Maintained and debugged an expanding codebase
-- Led code reviews to increase code clarity and update documentation
+- Designed and implemented Enemy AI with a FSM
+- Created Enemy spawning system that reads a level's spawning instructions from its JSON file
+- Created an external tool for designers to easily construct their own spawning instructions JSON
+- Implemented an autosave system to keep progress after beating a level
+- Worked with the Composer to implement a dynamic soundtrack that responds to player's actions
+- Assembled the components from each team member into a unified project and built the game
 
 ## Description
 The armies of Heaven and Hell are going to war threatening to destroy Earth in the process. You play simultaneously as two soul-bound heroes, an Angel and a Devil, who have agreed to work together to save Earth. Fight off the armies of both realms at the same time in this difficult, timing-based combat game.
 
-<iframe src="https://drive.google.com/file/d/1jvAim07x8338zR-FwgMmBBhWl9IrvfCb/preview" width="660" height="440" allow="accelerometer; autoplay; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://drive.google.com/file/d/1jvAim07x8338zR-FwgMmBBhWl9IrvfCb/preview" width="660" height="440" frameborder="0" allow="accelerometer; autoplay; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 For the 2022 Global Game Jam Boston, hosted by Northeastern University's Game Development Club, I worked on a team of seven developers to create a game around the theme of "Duality" in 48 hours. Together, we developed a game around the duality of heaven and hell and the necessary balance between the two. 
 
 ## Meet the Team
-![Picture of Team Naan](../../images/SIP22Naan.jpeg)
-**Team Naan** <span style="color: var(--subtext-color)">From the left (top row, bottom row)<span>
-- Jacob Pine - Lead Programmer
-- Brendan Rufo - Programmer, Designer
-- Athena Chang - Lead Artist
-- Ryan Normand - Producer, Artist
-- Tate Donnelly - Programmer, Build Master
-- Yaseen Nagib - Lead Designer, Artist
-- Brendan Horack - Lead Marketing
-- Katie Rupinski - Lead Composer & Sound Designer
+- Jonny Glassman - Producer, Designer, Writer
+- Abhinav Reddy Chitty - Artist, Animator, Designer
+- Shripad Agashe - Programmer, Designer
+- Jake Pine - Programmer, Tools, Designer
+- Dylan Ever - Composer, Sound Designer, Concept Artist, Writer, Designer
+- Siddharth Singhai - Programmer, Designer
+- Costas Frost - Artist, Animator
 
-<div class="storePages">
-  <a href="https://apps.apple.com/us/app/hellfire-hair/id1630220119?itsct=apps_box_badge&amp;itscg=30200" style="display: block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;">
-    <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1659312000&h=2b5cbfaedbf1f866a2a579cb9d9a9473" alt="Download on the App Store" style="border-radius: 13px; width: 100%; height: 100%">
-  </a>
-  <a href='https://play.google.com/store/apps/details?id=com.MassDiGi.Naan&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
-    <img alt='Get it on Google Play' style="max-height: 123px; margin: -20px" src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/>
-  </a>
-</div>
+Submission for the 2022 Global Game Jam: Boston
 
-Project made possible by MassDiGI's Summer Innovation Program (SIP)
-<div style="display: flex; justify-content: around">
-  <img class="massdigiLogo" src="https://pbs.twimg.com/profile_images/1402363749831426052/PQItLPnn_400x400.jpg" alt="MassDiGI logo">
-</div>
+![Global Game Jam logo](../../images/ggjLogo.jpeg)
 
 <div style="text-align: center">
-  <a href="https://globalgamejam.org/2022/games/infernal-grace-0" target="_blank" class="airbridgeButton">View Jam Submission</a>
+  <a href="https://globalgamejam.org/2022/games/infernal-grace-0" target="_blank" class="button">View Jam Submission</a>
 </div>

@@ -82,14 +82,14 @@ keywords:
 ## Role & Responsibilities
 - Designed and implemented major game systems
 - Split up stories into small tasks to share amongst the programmers
-- Collaborated with Artists and Designers
+- Collaborated with Artists and Designers; made tools for easy content creation
 - Maintained and debugged an expanding codebase
 - Led code reviews to increase code clarity and update documentation
 
 ## Description
 Hellfire Hair is a mobile rogue-like card battler similar to slay the spire where you play as a hairdresser from hell. Battle the hair of the devil’s repressed servants to give them makeovers with the help of summons and unique touch screen mechanics.
 
-<iframe style="max-width: min(660px, 100%); max-height: 400px; margin: auto;" width="660" height="440" src="https://www.youtube.com/embed/b5aNngw8iqM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe style="max-width: min(660px, 100%); max-height: 400px; margin: auto;" width="660" height="440" frameborder="0" src="https://www.youtube.com/embed/pgkDYAey3tw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Meet the Team
 ![Picture of Team Naan](../../images/SIP22Naan.jpeg)

@@ -12,7 +12,7 @@ export function HeroSection(props: PageSection): React.ReactElement {
     const data = response.allHeroJson.sections[0];
 
     return (
-        <Animation type="fadeUp" delay={400}>
+        <Animation type="fadeUp" delay={100}>
             <Section anchor={props.sectionId} additionalClasses={[classes.HeroContainer]}>
                 {data.heroPhoto?.src && (
                     <div className={classes.heroImageCont}>

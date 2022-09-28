@@ -17,7 +17,6 @@ export function ArticleCard(props: ArticleCardProps): React.ReactElement {
     const { globalState } = useGlobalState();
     const darkModeEnabled = globalState.theme === Theme.Dark;
 
-    console.log(props.data);
     // Needed to differentiate between external and internal links (whether or not we use Gatsby Link)
     const absoluteUrl = props.data.slug.indexOf('://') > 0 || props.data.slug.indexOf('//') === 0;
 

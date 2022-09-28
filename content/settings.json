@@ -2,12 +2,12 @@
   "siteMetadata": {
     "language": "en",
     "siteUrl": "https://gatsby-starter-portfolio-minimal-theme.netlify.app/",
-    "title": "JPineDev Portfolio",
+    "title": "jpinedev Portfolio",
     "titleTemplate": "%s · Portfolio Minimal",
     "description": "Jacob Pine's Game Development portfolio website built with GatsbyJS.",
     "author": "Jacob Pine",
     "avatar": "../content/images/HeadshotZoomed.jpg",
-    "bio": "I am a fourth-year student at Northeastern University studying Computer Science and Game Development. As a game programmer, I love to create and aid others to more easily achieve their creative vision. I would most like to gain experience developing multiplayer games and tools to assist with game creation.",
+    "bio": "I am a fourth-year student at Northeastern University studying Computer Science and Game Development. As a game programmer, I love the puzzle of designing scalable systems and creating tools to assist with content creation. I would most like to gain experience developing multiplayer games and tools to expedite game creation.",
     "social": {
       "github": "https://github.com/jpinedev",
       "linkedin": "https://www.linkedin.com/in/jacob-pine-4b7367157/",
@@ -16,13 +16,12 @@
     }
   },
   "siteConfiguration": {
-    "logo": { "text": "JPineDev" },
+    "logo": { "text": "jpinedev" },
     "navigation": {
       "header": [
         { "label": "About", "url": "/#about" },
         { "label": "Projects", "url": "/projects" },
-        { "label": "Features", "url": "/#features" },
-        { "label": "Github", "url": "/#github" }
+        { "label": "Github", "url": "/#about" }
       ],
       "ctaButton": {
         "openNewTab": true,
@@ -30,8 +29,7 @@
         "url": "/resume.pdf"
       },
       "footer": [
-        { "label": "Privacy", "url": "/privacy" },
-        { "label": "Imprint", "url": "/imprint" }
+        { "label": "Privacy", "url": "/privacy" }
       ]
     },
     "featureToggles": {

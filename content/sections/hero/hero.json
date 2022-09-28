@@ -1,5 +1,5 @@
 {
-  "intro": "Hej",
+  "intro": "Hey",
   "heroPhoto": {
     "src": "../../images/lego-dummy.png",
     "alt": "My Photo"
@@ -11,10 +11,10 @@
   "title": {
     "prefix": "I'm ",
     "highlight": "Jacob Pine",
-    "suffix": " (JPineDev)"
+    "suffix": " (jpinedev)"
   },
   "subtitle": "Fourth-year at Northeastern University studying Computer Science and Game Development.",
-  "description": "As a game programmer, I love to create and aid others to more easily achieve their creative vision. I would most like to gain experience developing multiplayer games and tools to assist with game creation.",
+  "description": "As a game programmer, I love the puzzle of designing scalable systems and creating tools to assist with content creation. I would most like to gain experience developing multiplayer games and tools to expedite game creation.",
   "socialProfiles": {
     "from": ["LinkedIn", "Github", "Twitter", "Mail"],
     "showIcons": true

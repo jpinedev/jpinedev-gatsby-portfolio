@@ -57,11 +57,11 @@ export default function ArticleListingTemplate(props: ArticleListingTemplateProp
 
     return (
         <>
-            <Seo title="All Articles" useTitleTemplate={true} />
+            <Seo title="All Projects" useTitleTemplate={true} />
             <Page>
-                <Section anchor="articleListing" heading="Articles">
+                <Section anchor="projectListing" heading="Projects">
                     <div className={classes.Filter}>
-                        Select categories to filter articles
+                        Select categories to filter projects
                         <Slider additionalClasses={[classes.Options]}>
                             {filterOptions.map((option, key) => {
                                 return (

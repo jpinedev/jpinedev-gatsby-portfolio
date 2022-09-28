@@ -1,58 +1,51 @@
 {
   "interests": [
     {
-      "label": "Quick and Easy Setup",
+      "label": "Online Multiplayer",
       "image": {
-        "src": "../../images/joystick.png",
-        "alt": ""
+        "src": "../../images/globe-with-meridians.png",
+        "alt": "internet emoji"
       }
     },
     {
-      "label": "Content via Markdown",
+      "label": "Co-op",
       "image": {
-        "src": "../../images/notebook.png",
-        "alt": ""
+        "src": "../../images/man-girl-boy.png",
+        "alt": "parent and children emoji"
       }
     },
     {
-      "label": "Responsive Design",
+      "label": "Couch Co-op",
       "image": {
-        "src": "../../images/nail-polish.png",
-        "alt": ""
+        "src": "../../images/couch-and-lamp.png",
+        "alt": "couch emoji"
       }
     },
     {
-      "label": "Animations",
+      "label": "Competitive",
       "image": {
-        "src": "../../images/gem-stone.png",
-        "alt": ""
+        "src": "../../images/sports-medal.png",
+        "alt": "sports medal emoji"
       }
     },
     {
-      "label": "PWA (Offline Support)",
+      "label": "eSports",
       "image": {
-        "src": "../../images/mobile-phone.png",
-        "alt": ""
+        "src": "../../images/wrestlers.png",
+        "alt": "wrestlers emoji"
       }
     },
     {
-      "label": "Modern Tech-Stack",
+      "label": "Tools",
       "image": {
-        "src": "../../images/gatsby.png",
-        "alt": ""
-      }
-    },
-    {
-      "label": "Blazing Fast",
-      "image": {
-        "src": "../../images/high-voltage.png",
-        "alt": ""
+        "src": "../../images/hammer-and-wrench.png",
+        "alt": "hammer and wrench emoji"
       }
     }
   ],
   "button": {
     "visible": true,
     "label": "+ Load More",
-    "initiallyShownInterests": 5
+    "initiallyShownInterests": 6
   }
 }
