@@ -1,4 +1,5 @@
 module.exports = ({ actions }) => {
+    console.log("creating custom schema...");
     return actions.createTypes(`
     type BannerImage {
         src: File @fileByRelativePath
