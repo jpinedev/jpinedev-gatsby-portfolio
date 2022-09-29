@@ -98,3 +98,30 @@
     content: '–';
     margin-right: 0.25rem;
 }
+
+@media (max-width: 796px) {
+    .Card {
+        flex-direction: column;
+        min-width: 420px;
+    }
+
+    .Card .Banner {
+        max-width: 100%;
+        border-top-right-radius: var(--border-radius);
+        border-bottom-left-radius: 0;
+    }
+
+    .Card .Image {
+        border-top-right-radius: var(--border-radius);
+        border-bottom-left-radius: 0;
+    }
+
+    .Card .DescriptionWrapper {
+        height: auto;
+        padding: 2rem 2rem;
+    }
+
+    .Card .Description {
+        max-width: 450px;
+    }
+}
