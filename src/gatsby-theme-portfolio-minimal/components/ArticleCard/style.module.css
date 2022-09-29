@@ -102,7 +102,7 @@
 @media (max-width: 796px) {
     .Card {
         flex-direction: column;
-        min-width: 420px;
+        min-width: calc(320px - 5rem);
     }
 
     .Card .Banner {
@@ -117,11 +117,22 @@
     }
 
     .Card .DescriptionWrapper {
-        height: auto;
         padding: 2rem 2rem;
     }
 
     .Card .Description {
         max-width: 450px;
+    }
+}
+
+@media (max-width: 460px) {
+    .Card .DescriptionWrapper {
+        padding: 1.5rem 1.5rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .Card .DescriptionWrapper {
+        padding: 1rem 1rem;
     }
 }

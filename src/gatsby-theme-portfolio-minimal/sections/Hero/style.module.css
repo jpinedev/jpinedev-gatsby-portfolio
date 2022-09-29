@@ -96,5 +96,6 @@
 
     .Hero {
         display: block;
+        min-height: 35vh;
     }
 }
