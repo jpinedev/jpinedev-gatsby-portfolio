@@ -1,6 +1,6 @@
 import { graphql, useStaticQuery } from 'gatsby';
-import { SocialProfile } from 'gatsby-theme-portfolio-minimal/src/components/SocialProfiles';
-import { ImageObject } from 'gatsby-theme-portfolio-minimal/src/types';
+import { SocialProfile } from '../../components/SocialProfiles';
+import { ImageObject } from '../../types';
 
 interface HeroSectionQueryResult {
     allHeroJson: {

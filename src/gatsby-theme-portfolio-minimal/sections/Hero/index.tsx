@@ -1,10 +1,10 @@
 import React from 'react';
 import { GatsbyImage } from 'gatsby-plugin-image';
-import { Animation } from 'gatsby-theme-portfolio-minimal/src/components/Animation';
-import { Section } from 'gatsby-theme-portfolio-minimal/src/components/Section';
-import { SocialProfiles } from 'gatsby-theme-portfolio-minimal/src/components/SocialProfiles';
+import { Animation } from '../../components/Animation';
+import { Section } from '../../components/Section';
+import { SocialProfiles } from '../../components/SocialProfiles';
 import { useLocalDataSource } from './data';
-import { PageSection } from 'gatsby-theme-portfolio-minimal/src/types';
+import { PageSection } from '../../types';
 import * as classes from './style.module.css';
 
 export function HeroSection(props: PageSection): React.ReactElement {

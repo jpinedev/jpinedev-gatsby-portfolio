@@ -1,12 +1,12 @@
 import React from 'react';
-import { Animation } from 'gatsby-theme-portfolio-minimal/src/components/Animation';
-import { Section } from 'gatsby-theme-portfolio-minimal/src/components/Section';
-import { Slider } from 'gatsby-theme-portfolio-minimal/src/components/Slider';
+import { Animation } from '../../components/Animation';
+import { Section } from '../../components/Section';
+import { Slider } from '../../components/Slider';
 import { ArticleCard, ArticleCardSkeleton } from '../../components/ArticleCard';
-import { useSiteMetadata } from 'gatsby-theme-portfolio-minimal/src/hooks/useSiteMetadata';
+import { useSiteMetadata } from '../../hooks/useSiteMetadata';
 import { useLocalDataSource } from './data';
-import { ArticleTemplateQuery } from 'gatsby-theme-portfolio-minimal/src/templates/Article/data';
-import { PageSection } from 'gatsby-theme-portfolio-minimal/src/types';
+import { ArticleTemplateQuery } from '../../templates/Article/data';
+import { PageSection } from '../../types';
 import * as classes from './style.module.css';
 
 enum ArticleSource {

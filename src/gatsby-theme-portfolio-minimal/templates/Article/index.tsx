@@ -1,14 +1,14 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import { GatsbyImage } from 'gatsby-plugin-image';
-import { Page } from 'gatsby-theme-portfolio-minimal/src/components/Page';
-import { Seo } from 'gatsby-theme-portfolio-minimal/src/components/Seo';
+import { Page } from '../../components/Page';
+import { Seo } from '../../components/Seo';
 import { AuthorSnippet } from '../../components/AuthorSnippet';
 import { ArticlePreviewData } from '../../components/ArticleCard/data';
 import * as classes from './style.module.css';
 
 // Reference to the local prismjs theme (Modified)
-require('gatsby-theme-portfolio-minimal/src/globalStyles/prism.css');
+require('../../globalStyles/prism.css');
 
 interface ArticleTemplateProps {
     pageContext: {

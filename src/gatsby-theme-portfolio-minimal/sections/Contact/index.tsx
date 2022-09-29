@@ -1,10 +1,10 @@
 import React from 'react';
 import { GatsbyImage } from 'gatsby-plugin-image';
-import { Animation } from 'gatsby-theme-portfolio-minimal/src/components/Animation';
-import { Section } from 'gatsby-theme-portfolio-minimal/src/components/Section';
-import { SocialProfiles } from 'gatsby-theme-portfolio-minimal/src/components/SocialProfiles';
-import { useLocalDataSource } from 'gatsby-theme-portfolio-minimal/src/sections/Contact/data';
-import { PageSection } from 'gatsby-theme-portfolio-minimal/src/types';
+import { Animation } from '../../components/Animation';
+import { Section } from '../../components/Section';
+import { SocialProfiles } from '../../components/SocialProfiles';
+import { useLocalDataSource } from './data';
+import { PageSection } from '../../types';
 import * as classes from './style.module.css';
 
 export function ContactSection(props: PageSection): React.ReactElement {

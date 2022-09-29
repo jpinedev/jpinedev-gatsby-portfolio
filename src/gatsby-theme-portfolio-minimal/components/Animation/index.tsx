@@ -1,6 +1,6 @@
 import React from 'react';
-import { useCastedRef } from 'gatsby-theme-portfolio-minimal/src/hooks/useCastedRef';
-import { useOnScreen } from 'gatsby-theme-portfolio-minimal/src/hooks/useOnScreen';
+import { useCastedRef } from '../../hooks/useCastedRef';
+import { useOnScreen } from '../../hooks/useOnScreen';
 import './style.css';
 
 type AnimationTiming = 'linear' | 'ease-in' | 'ease-out' | 'ease-in-out';

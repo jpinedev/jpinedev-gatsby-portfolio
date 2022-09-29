@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 import { GatsbyImage } from 'gatsby-plugin-image';
 import SkeletonLoader from 'tiny-skeleton-loader-react';
-import { Theme, useGlobalState } from 'gatsby-theme-portfolio-minimal/src/context';
+import { Theme, useGlobalState } from '../../context';
 import { ArticlePreviewData } from './data'
 import * as classes from './style.module.css';
 

@@ -1,4 +1,5 @@
 import React from "react";
+
 import {
   ArticlesSection,
   ContactSection,
@@ -6,12 +7,12 @@ import {
   InterestsSection,
   Page,
   Seo,
-} from "gatsby-theme-portfolio-minimal";
+} from '../gatsby-theme-portfolio-minimal';
 
 export default function IndexPage() {
   return (
     <>
-      <Seo title="Gatsby Starter for Portfolio Minimal" />
+      <Seo title="jpinedev Portfolio" />
       <Page useSplashScreenAnimation>
         <HeroSection sectionId="hero" />
         <ArticlesSection sectionId="articles" heading="Projects" sources={['blog']} />

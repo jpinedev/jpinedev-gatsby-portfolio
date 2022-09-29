@@ -1,10 +1,10 @@
 import React from 'react';
-import { Page } from 'gatsby-theme-portfolio-minimal/src/components/Page';
-import { Section } from 'gatsby-theme-portfolio-minimal/src/components/Section';
-import { Seo } from 'gatsby-theme-portfolio-minimal/src/components/Seo';
-import { Slider } from 'gatsby-theme-portfolio-minimal/src/components/Slider';
+import { Page } from '../../components/Page';
+import { Section } from '../../components/Section';
+import { Seo } from '../../components/Seo';
+import { Slider } from '../../components/Slider';
 import { ArticleCard } from '../../components/ArticleCard';
-import { Button, ButtonType } from 'gatsby-theme-portfolio-minimal/src/components/Button';
+import { Button, ButtonType } from '../../components/Button';
 import { ArticlePreviewData } from '../../components/ArticleCard/data';
 import * as classes from './style.module.css';
 
