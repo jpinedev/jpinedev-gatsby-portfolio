@@ -1,6 +1,9 @@
+const path = require('path');
+
 const options = require('./config');
 
 module.exports = {
+  siteMetadata: options.siteUrl ? { siteUrl: options.siteUrl } : null,
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,

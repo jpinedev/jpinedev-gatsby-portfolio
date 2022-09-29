@@ -1,5 +1,5 @@
 const options = {
-  siteUrl: "https://gatsby-starter-portfolio-minimal-theme.netlify.app/", // Used for sitemap generation
+  siteUrl: "https://jpinedev.gatsbyjs.io/", // Used for sitemap generation
   manifestSettings: {
     favicon: "./content/images/HeadshotZoomed.jpg", // Path is relative to the root
     siteName: "jpinedev Portfolio", // Used in manifest.json
