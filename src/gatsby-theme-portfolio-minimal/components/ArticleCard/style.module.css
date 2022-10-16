@@ -90,18 +90,14 @@
     letter-spacing: +0.5px;
 }
 
-.Card .LearnMore, .LearnMore:visited {
-    margin-top: .25rem;
-    color: var(--subtext-color);
-    text-decoration: underline;
+.Card .LearnMore {
+    display: none;
+    margin-top: 0.75rem;
+    transition-duration: 200ms;
 }
-
 .Card .LearnMore:hover {
     color: var(--primary-color);
-}
-
-.Card .LearnMore:active {
-    color: var(--secondary-color);
+    transition-duration: 200ms;
 }
 
 .Card .ReadingTime {
@@ -136,6 +132,10 @@
 
     .Card .Description {
         max-width: 450px;
+    }
+
+    .Card .LearnMore {
+        display: inline;
     }
 }
 

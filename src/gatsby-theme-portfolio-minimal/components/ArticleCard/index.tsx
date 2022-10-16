@@ -50,9 +50,9 @@ export function ArticleCard(props: ArticleCardProps): React.ReactElement {
                                 {category}
                             </u>))}
                 </span>
-                <Link className={classes.LearnMore} to={props.data.slug} title={props.data.title}>
-                    Learn more...
-                </Link>
+                <span className={classes.LearnMore}>
+                    <u>Learn more...</u>
+                </span>
             </div>
         </article>
     );
