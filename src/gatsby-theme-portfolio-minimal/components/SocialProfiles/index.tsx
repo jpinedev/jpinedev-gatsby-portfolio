@@ -39,7 +39,7 @@ export function SocialProfiles(props: SocialProfilesProps): React.ReactElement {
     });
 
     return (
-        <Slider>
+        <div className={classes.socialsContainer}>
             {shownProfiles.map((profile, key) => {
                 const completeProfileData = profile.label && profile.url;
                 return !completeProfileData ? null : (
@@ -56,6 +56,6 @@ export function SocialProfiles(props: SocialProfilesProps): React.ReactElement {
                     </a>
                 );
             })}
-        </Slider>
+        </div>
     );
 }

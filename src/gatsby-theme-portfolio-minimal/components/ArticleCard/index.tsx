@@ -43,13 +43,16 @@ export function ArticleCard(props: ArticleCardProps): React.ReactElement {
                 <div className={classes.Details}>
                     {formatDate(new Date(props.data.date))}
                 </div>
-                    <span className={classes.Categories}>
-                        {props.data.categories.length > 0 &&
-                            props.data.categories.map((category, key) => (
-                                <u className={classes.Category} key={key}>
-                                    {category}
-                                </u>))}
-                    </span>
+                <span className={classes.Categories}>
+                    {props.data.categories.length > 0 &&
+                        props.data.categories.map((category, key) => (
+                            <u className={classes.Category} key={key}>
+                                {category}
+                            </u>))}
+                </span>
+                <Link className={classes.LearnMore} to={props.data.slug} title={props.data.title}>
+                    Learn more...
+                </Link>
             </div>
         </article>
     );

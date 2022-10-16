@@ -1,3 +1,10 @@
+.socialsContainer {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: .75rem;
+}
+
 .Profile {
     width: auto;
     height: auto;
@@ -33,5 +40,11 @@
 @media (min-width: 768px) {
     .Profile {
         margin-right: 1rem;
+    }
+}
+
+@media (max-width: 468px) {
+    .socialsContainer {
+        flex-direction: column;
     }
 }

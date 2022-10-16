@@ -90,6 +90,20 @@
     letter-spacing: +0.5px;
 }
 
+.Card .LearnMore, .LearnMore:visited {
+    margin-top: .25rem;
+    color: var(--subtext-color);
+    text-decoration: underline;
+}
+
+.Card .LearnMore:hover {
+    color: var(--primary-color);
+}
+
+.Card .LearnMore:active {
+    color: var(--secondary-color);
+}
+
 .Card .ReadingTime {
     margin-left: 0.25rem;
 }
