@@ -110,5 +110,6 @@ module.exports = {
       }
       : null,
     `gatsby-plugin-offline`,
+    `gatsby-plugin-netlify`,
   ].filter((plugin) => plugin !== null)
 };
