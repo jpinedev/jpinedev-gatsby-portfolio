@@ -8,7 +8,6 @@ import { Theme, useGlobalState } from '../../context';
 import { SplashScreen } from '../SplashScreen';
 import { Footer } from '../Footer';
 import { Header } from '../Header';
-import { CookieBar } from '../CookieBar';
 import * as classes from './style.module.css';
 
 interface LayoutProps {
@@ -40,7 +39,6 @@ export function Layout(props: LayoutProps): React.ReactElement {
                 <Header />
                 <main>{props.children}</main>
                 <Footer />
-                {props.useCookieBar && <CookieBar />}
             </div>
         </>
     );

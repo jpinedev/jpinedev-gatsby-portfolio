@@ -72,7 +72,6 @@ module.exports = {
         ],
       },
     },
-    options.siteUrl ? `gatsby-plugin-robots-txt` : null,
     options.siteUrl ? `gatsby-plugin-sitemap` : null,
     options.manifestSettings
       ? {
@@ -85,27 +84,6 @@ module.exports = {
           theme_color: options.manifestSettings.themeColor,
           display: options.manifestSettings.display,
           icon: options.manifestSettings.favicon,
-        },
-      }
-      : null,
-    options.plausibleAnalytics
-      ? {
-        resolve: `gatsby-plugin-plausible`,
-        options: {
-          domain: options.plausibleAnalytics.domain,
-        },
-      }
-      : null,
-    options.googleAnalytics
-      ? {
-        resolve: `gatsby-plugin-gdpr-cookies`,
-        options: {
-          googleAnalytics: {
-            trackingId: options.googleAnalytics.trackingId,
-            cookieName: 'gatsby-gdpr-google-analytics',
-            anonymize: options.googleAnalytics.anonymize || true,
-          },
-          environments: options.googleAnalytics.environments || 'production',
         },
       }
       : null,
