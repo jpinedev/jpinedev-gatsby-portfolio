@@ -1,13 +1,15 @@
 {
-  "name": "gatsby-test",
+  "name": "jpinedev-portfolio",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean": "gatsby clean",
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "jpinedev",
+  "license": "0BSD",
   "dependencies": {
     "@fontsource/roboto": "^5.0.8",
     "gatsby": "5.12.5",
