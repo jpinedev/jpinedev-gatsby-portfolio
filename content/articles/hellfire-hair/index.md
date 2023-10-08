@@ -44,7 +44,7 @@ keywords:
     display: flex; flex-direction: row; justify-content: space-around;
   }
   .storePages > a { margin-top: .75rem }
-  .massdigiLogo { width: 400px; height: 250px; object-fit: cover; margin: auto; padding-left: 25px; background: white }
+  .massdigiLogo { width: 400px; height: 250px; object-fit: cover; margin: auto; background: white }
   @media (max-width: 666px) {
     .storePages { flex-direction: column; align-items: center }
   }
@@ -113,6 +113,7 @@ Hellfire Hair is a mobile rogue-like card battler similar to slay the spire wher
 </div>
 
 Project made possible by MassDiGI's Summer Innovation Program (SIP)
+<!-- ![MassDiGI logo](../../images/massdigi-logo.png) -->
 <div style="display: flex; justify-content: around">
-  <img class="massdigiLogo" src="https://pbs.twimg.com/profile_images/1402363749831426052/PQItLPnn_400x400.jpg" alt="MassDiGI logo"/>
+  <img class="massdigiLogo" src="https://www.wpi.edu/sites/default/files/2021/05/05/NEWmassdigi_final_logo_8.png" alt="MassDiGI logo"/>
 </div>

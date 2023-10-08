@@ -1,6 +1,20 @@
 {
   "interests": [
     {
+      "label": "Engine Development",
+      "image": {
+        "src": "../../images/steam-engine.png",
+        "alt": "steam engine emoji"
+      }
+    },
+    {
+      "label": "Tools",
+      "image": {
+        "src": "../../images/hammer-and-wrench.png",
+        "alt": "hammer and wrench emoji"
+      }
+    },
+    {
       "label": "Online Multiplayer",
       "image": {
         "src": "../../images/globe-with-meridians.png",
@@ -15,13 +29,6 @@
       }
     },
     {
-      "label": "Couch Co-op",
-      "image": {
-        "src": "../../images/couch-and-lamp.png",
-        "alt": "couch emoji"
-      }
-    },
-    {
       "label": "Competitive",
       "image": {
         "src": "../../images/sports-medal.png",
@@ -33,13 +40,6 @@
       "image": {
         "src": "../../images/wrestlers.png",
         "alt": "wrestlers emoji"
-      }
-    },
-    {
-      "label": "Tools",
-      "image": {
-        "src": "../../images/hammer-and-wrench.png",
-        "alt": "hammer and wrench emoji"
       }
     }
   ],
