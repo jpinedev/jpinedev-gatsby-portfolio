@@ -3,7 +3,7 @@ title: "The Sims 4 Client Systems Internship"
 description: ""
 date: "2023-08-18"
 banner:
-  src: "../../images/TheSims4Thumbnail.png"
+  src: "../../images/TheSims4Thumbnail.jpg"
   alt: "Sims 4 Preview"
 categories:
   - "C++"
