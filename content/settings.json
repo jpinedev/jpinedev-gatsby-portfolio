@@ -7,11 +7,10 @@
     "description": "Jacob Pine's Game Development portfolio website built with GatsbyJS.",
     "author": "Jacob Pine",
     "avatar": "../content/images/HeadshotZoomed.jpg",
-    "bio": "I am a fourth-year student at Northeastern University studying Computer Science and Game Development. As a game programmer, I love the puzzle of designing scalable systems, networking for multiplayer games, and creating tools to assist with content creation. I would most like to gain experience developing multiplayer games and tools to expedite game creation.",
+    "bio": "As a game programmer, I love the puzzle of designing scalable systems, networking for multiplayer games, and creating tools to assist with content creation. I would most like to gain experience developing multiplayer games and tools to expedite game creation.",
     "social": {
       "github": "https://github.com/jpinedev",
       "linkedin": "https://www.linkedin.com/in/jacob-pine-4b7367157/",
-      "twitter": "https://twitter.com/JacobPineDev",
       "mail": "mailto:jpinedev@gmail.com"
     }
   },
@@ -20,13 +19,12 @@
     "navigation": {
       "header": [
         { "label": "About", "url": "/#about" },
-        { "label": "Projects", "url": "/projects" },
-        { "label": "Github", "url": "/#about" }
+        { "label": "Projects", "url": "/projects" }
       ],
       "ctaButton": {
         "openNewTab": true,
-        "label": "Resume",
-        "url": "/resume.pdf"
+        "label": "Github",
+        "url": "https://github.com/jpinedev"
       },
       "footer": [
         { "label": "Privacy", "url": "/privacy" }

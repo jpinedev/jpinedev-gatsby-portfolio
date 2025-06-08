@@ -1,19 +1,13 @@
 {
-  "intro": "Hey",
+  "intro": "",
   "heroPhoto": {
     "src": "../../images/lego-dummy.png",
     "alt": "My Photo"
   },
-  "image": {
-    "src": "../../images/waving-hand.png",
-    "alt": "Waving Hand Emoji"
-  },
   "title": {
-    "prefix": "I'm ",
-    "highlight": "Jacob Pine",
-    "suffix": " — jpinedev"
+    "highlight": "Jacob Pine — jpinedev"
   },
-  "subtitle": "Senior at Northeastern University studying Computer Science and Game Development.",
+  "subtitle": "",
   "description": "As a game programmer, I love the puzzle of designing scalable systems, networking for multiplayer games, and creating tools to assist with content creation. I would most like to gain experience developing multiplayer games and tools to expedite game creation.",
   "socialProfiles": {
     "from": ["LinkedIn", "Github", "Mail"],
